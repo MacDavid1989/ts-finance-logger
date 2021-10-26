@@ -4,7 +4,7 @@ var greet;
 greet = function () {
     console.log("hey from sandbox");
 };
-var add = function (a, b) {
+var add = function (a, b, c) {
     console.log(a + b);
 };
 add(2, 4);
