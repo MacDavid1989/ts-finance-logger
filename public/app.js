@@ -6,6 +6,9 @@ var Invoice = /** @class */ (function () {
         this.details = d;
         this.amount = a;
     }
+    Invoice.prototype.format = function () {
+        return this.client + " owes $" + this.amount + " for " + this.details;
+    };
     return Invoice;
 }());
 var form = document.querySelector(".new-item-form");
