@@ -1,13 +1,6 @@
-var character = "mario";
-var age = 30;
-var isBlackBelt = false;
-//character = 20;
-character = "luigi";
-//age = "yoshi";
-age = 25;
-//isBlackBelt = "yes";
-isBlackBelt = true;
-var circ = function (diameter) {
-    return diameter * Math.PI;
-};
-console.log(circ(7.5));
+// arrays
+var names = ["mario", "luigi"];
+names.push("toad");
+names.push(3);
+names[0] = 3;
+// objects
