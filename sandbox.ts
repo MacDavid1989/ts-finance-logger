@@ -22,6 +22,12 @@ let mixed: (string | number)[] = [];
 
 mixed.push("hello");
 mixed.push(20);
-mixed.push(false);
+// mixed.push(false);
+console.log(mixed);
+
+let uid: string | number;
+uid = "123";
+uid = 123;
+// uid = true;
 
 // objects

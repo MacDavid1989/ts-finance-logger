@@ -15,5 +15,10 @@ ninjas = ["luigi", "mario"];
 var mixed = [];
 mixed.push("hello");
 mixed.push(20);
-mixed.push(false);
+// mixed.push(false);
+console.log(mixed);
+var uid;
+uid = "123";
+uid = 123;
+// uid = true;
 // objects
