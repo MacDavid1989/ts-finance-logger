@@ -1,3 +1,11 @@
+// interfaces: enforce structure of class or object
+interface IsPerson {
+  name: string;
+  age: number;
+  speak(a: string): void;
+  spend(a: number): number;
+}
+
 import { Invoice } from "./classes/Invoice.js";
 
 const invOne = new Invoice("mario", "work on the mario website", 250);
