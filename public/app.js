@@ -31,4 +31,5 @@ form.addEventListener("submit", (e) => {
     else {
         doc = new Payment(tofrom.value, details.value, amount.valueAsNumber);
     }
+    console.log(doc);
 });
