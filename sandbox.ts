@@ -10,3 +10,9 @@ age = 25;
 
 //isBlackBelt = "yes";
 isBlackBelt = true;
+
+const circ = (diameter) => {
+  return diameter * Math.PI;
+};
+
+console.log(circ("hello"));
