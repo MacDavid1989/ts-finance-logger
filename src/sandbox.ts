@@ -5,7 +5,7 @@ greet = () => {
   console.log("hey from sandbox");
 };
 
-const add = (a: number, b: number, c: number | string = 10) => {
+const add = (a: number, b: number, c: number | string = 10): void => {
   console.log(a + b);
   console.log(c);
 };
