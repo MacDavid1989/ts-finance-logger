@@ -9,6 +9,9 @@ const me = {
         return amount;
     },
 };
+const greetPerson = (person) => {
+    console.log('Hello', person.name);
+};
 console.log(me);
 import { Invoice } from "./classes/Invoice.js";
 const invOne = new Invoice("mario", "work on the mario website", 250);
