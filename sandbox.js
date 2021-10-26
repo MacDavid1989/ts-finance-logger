@@ -26,3 +26,4 @@ var ninjaOne;
 ninjaOne = { name: "yoshi", age: 30 };
 ninjaOne = [];
 var ninjaTwo;
+ninjaTwo = { name: "mario", age: 40, beltColor: "red" /*, skills: []*/ };
