@@ -8,7 +8,9 @@ let docTwo: HasFormatter;
 docOne = new Invoice("yoshi", "web work", 250);
 docTwo = new Payment("mario", "plumbing work", 200);
 
-let docs: HasFormatter[] = []
+let docs: HasFormatter[] = [];
+docs.push(docOne);
+docs.push(docTwo);
 
 const invOne = new Invoice("mario", "work on the mario website", 250);
 const invTwo = new Invoice("luigi", "work on the luigi website", 300);
