@@ -22,3 +22,6 @@ uid = "123";
 uid = 123;
 // uid = true;
 // objects
+var ninjaOne;
+ninjaOne = { name: "yoshi", age: 30 };
+ninjaOne = [];

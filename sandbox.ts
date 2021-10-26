@@ -31,3 +31,7 @@ uid = 123;
 // uid = true;
 
 // objects
+let ninjaOne: object;
+
+ninjaOne = { name: "yoshi", age: 30 };
+ninjaOne = []
