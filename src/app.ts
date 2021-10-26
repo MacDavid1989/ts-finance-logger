@@ -15,6 +15,8 @@ class Invoice {
   }
 }
 
+const invOne = new Invoice("mario", "work on the mario website", 250);
+
 const form = document.querySelector(".new-item-form")! as HTMLFormElement;
 
 // inputs

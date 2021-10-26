@@ -11,6 +11,7 @@ var Invoice = /** @class */ (function () {
     };
     return Invoice;
 }());
+var invOne = new Invoice("mario", "work on the mario website", 250);
 var form = document.querySelector(".new-item-form");
 // inputs
 var type = document.querySelector("#type");
