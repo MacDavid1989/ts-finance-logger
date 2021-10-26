@@ -12,4 +12,8 @@ ninjas.push("mario");
 // ninjas = [12, 23];
 ninjas = ["luigi", "mario"];
 // union types
+var mixed = [];
+mixed.push("hello");
+mixed.push(20);
+mixed.push(false);
 // objects
