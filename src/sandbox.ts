@@ -1,5 +1,3 @@
-let greet = () => {
-  console.log("hey from sandbox");
-};
+let greet: Function;
 
 // greet = "hello";
