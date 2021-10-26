@@ -6,6 +6,20 @@ interface IsPerson {
   spend(a: number): number;
 }
 
+const me: IsPerson = {
+  name: "shaun",
+  age: 20,
+  speak(text: string): void {
+    console.log(text);
+  },
+  spend(amount: number): number {
+    console.log("I spent", amount);
+    return amount;
+  },
+};
+
+console.log(me);
+
 import { Invoice } from "./classes/Invoice.js";
 
 const invOne = new Invoice("mario", "work on the mario website", 250);
