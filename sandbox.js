@@ -25,3 +25,4 @@ uid = 123;
 var ninjaOne;
 ninjaOne = { name: "yoshi", age: 30 };
 ninjaOne = [];
+var ninjaTwo;

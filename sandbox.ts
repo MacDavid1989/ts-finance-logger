@@ -34,4 +34,6 @@ uid = 123;
 let ninjaOne: object;
 
 ninjaOne = { name: "yoshi", age: 30 };
-ninjaOne = []
+ninjaOne = [];
+
+let ninjaTwo: { name: string; age: number; beltColor: string };
