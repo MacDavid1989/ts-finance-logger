@@ -19,4 +19,8 @@ var ninja = {
 ninja.age = 40;
 ninja.name = "luigi";
 // ninja.age = "30";
-ninja.skills = ["fighting", "sneaking"];
+// ninja.skills = ["fighting", "sneaking"];
+ninja = {
+    name: "luigi",
+    belt: "orange"
+};
