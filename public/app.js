@@ -1,7 +1,10 @@
 "use strict";
 // classes: blueprints for objects
 var Invoice = /** @class */ (function () {
-    function Invoice() {
+    function Invoice(c, d, a) {
+        this.client = c;
+        this.details = d;
+        this.amount = a;
     }
     return Invoice;
 }());
