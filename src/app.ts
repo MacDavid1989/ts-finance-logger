@@ -3,6 +3,10 @@ import { Payment } from "./classes/Payment.js";
 import { HasFormatter } from "./interfaces/HasFormatter.js";
 
 let docOne: HasFormatter;
+let docTwo: HasFormatter;
+
+docOne = new Invoice("yoshi", "web work", 250);
+docTwo = new Payment("mario", "plumbing work", 200);
 
 const invOne = new Invoice("mario", "work on the mario website", 250);
 const invTwo = new Invoice("luigi", "work on the luigi website", 300);
