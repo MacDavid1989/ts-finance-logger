@@ -1,8 +1,8 @@
 // classes: blueprints for objects
 class Invoice {
-  client: string;
-  details: string;
-  private amount: number;
+  readonly client: string;
+  private details: string;
+  public amount: number;
 
   constructor(c: string, d: string, a: number) {
     this.client = c;
