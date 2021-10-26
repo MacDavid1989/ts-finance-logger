@@ -8,6 +8,7 @@ age = 30;
 isLoggedIn = true;
 // arrays
 var ninjas;
+ninjas.push("mario");
 // ninjas = [12, 23];
 ninjas = ["luigi", "mario"];
 // union types

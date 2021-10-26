@@ -12,9 +12,10 @@ isLoggedIn = true;
 // arrays
 let ninjas: string[];
 
+ninjas.push("mario");
+
 // ninjas = [12, 23];
 ninjas = ["luigi", "mario"];
-
 
 // union types
 
