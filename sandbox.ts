@@ -15,3 +15,12 @@ mixed.push(5);
 mixed[0] = 1;
 
 // objects
+let ninja = {
+  name: "mario",
+  belt: "black",
+  age: 30,
+};
+
+ninja.age = 40;
+ninja.name = "luigi";
+ninja.age = "30";
