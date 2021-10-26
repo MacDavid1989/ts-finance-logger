@@ -13,8 +13,10 @@ const add = (a: number, b: number, c: number | string = 10) => {
 add(2, 4);
 // add(2, "10");
 
-const minus = (a: number, b: number) => {
+const minus = (a: number, b: number):number => {
   return a + b;
 };
 
 let result = minus(10, 7);
+
+// result = 'yoshi'

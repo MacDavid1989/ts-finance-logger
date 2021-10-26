@@ -15,3 +15,4 @@ var minus = function (a, b) {
     return a + b;
 };
 var result = minus(10, 7);
+// result = 'yoshi'
