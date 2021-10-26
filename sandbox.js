@@ -10,4 +10,4 @@ isBlackBelt = true;
 var circ = function (diameter) {
     return diameter * Math.PI;
 };
-console.log(circ("hello"));
+console.log(circ(7.5));
