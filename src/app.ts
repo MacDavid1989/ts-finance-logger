@@ -1,9 +1,5 @@
-// classes: blueprints for objects
+// classes
 class Invoice {
-  // readonly client: string;
-  // private details: string;
-  // public amount: number;
-
   constructor(
     readonly client: string,
     private details: string,
@@ -23,7 +19,7 @@ invoices.push(invOne);
 invoices.push(invTwo);
 
 invoices.forEach((inv) => {
-  console.log(inv.client, inv.details, inv.amount, inv.format());
+  console.log(inv.client, inv.amount, inv.format());
 });
 
 const form = document.querySelector(".new-item-form")! as HTMLFormElement;
