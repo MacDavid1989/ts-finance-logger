@@ -16,7 +16,9 @@ var invTwo = new Invoice("luigi", "work on the luigi website", 300);
 var invoices = [];
 invoices.push(invOne);
 invoices.push(invTwo);
-console.log(invoices);
+invoices.forEach(function (inv) {
+    console.log(inv.client, inv.details, inv.amount, inv.format());
+});
 var form = document.querySelector(".new-item-form");
 // inputs
 var type = document.querySelector("#type");
