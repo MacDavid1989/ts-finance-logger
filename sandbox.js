@@ -7,7 +7,7 @@ age = 30;
 // isLoggedIn = 25
 isLoggedIn = true;
 // arrays
-var ninjas;
+var ninjas = [];
 ninjas.push("mario");
 // ninjas = [12, 23];
 ninjas = ["luigi", "mario"];

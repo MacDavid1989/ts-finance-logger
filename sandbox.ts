@@ -10,7 +10,7 @@ age = 30;
 isLoggedIn = true;
 
 // arrays
-let ninjas: string[];
+let ninjas: string[] = [];
 
 ninjas.push("mario");
 
