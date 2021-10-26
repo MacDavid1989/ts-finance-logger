@@ -11,5 +11,12 @@ calc = function (numOne, numTwo, action) {
     if (action == "add") {
         return numOne + numTwo;
     }
+    else {
+        return numOne - numTwo;
+    }
 };
 // eg 3
+var logDetails;
+logDetails = function (ninja) {
+    console.log(ninja.name, ninja.age);
+};
