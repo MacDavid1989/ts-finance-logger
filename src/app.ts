@@ -67,3 +67,9 @@ interface Resource<T> {
   resourceName: string;
   data: T;
 }
+
+const docTwo: Resource<object> = {
+  uid: 1,
+  resourceName: "person",
+  data: { name: "shaun" },
+};
