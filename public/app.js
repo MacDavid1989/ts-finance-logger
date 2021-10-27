@@ -48,3 +48,9 @@ const docTwo = {
     resourceName: "person",
     data: { name: "shaun" },
 };
+const docThree = {
+    uid: 2,
+    resourceName: "shoppingList",
+    data: ["apple", "banana", "orange"],
+};
+console.log(docTwo, docThree);

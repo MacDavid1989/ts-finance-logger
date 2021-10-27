@@ -73,3 +73,11 @@ const docTwo: Resource<object> = {
   resourceName: "person",
   data: { name: "shaun" },
 };
+
+const docThree: Resource<string[]> = {
+  uid: 2,
+  resourceName: "shoppingList",
+  data: ["apple", "banana", "orange"],
+};
+
+console.log(docTwo, docThree);
