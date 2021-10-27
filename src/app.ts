@@ -28,31 +28,5 @@ form.addEventListener("submit", (e: Event) => {
   li.render(doc, type.value, "end");
 });
 
-// enums
-enum ResourceType {
-  BOOK,
-  AUTHOR,
-  FILM,
-  DIRECTOR,
-  PERSON,
-}
+// tuples
 
-interface Resource<T> {
-  uid: number;
-  resourceType: ResourceType;
-  data: T;
-}
-
-const docTwo: Resource<object> = {
-  uid: 1,
-  resourceType: ResourceType.BOOK,
-  data: { title: "name of the wind" },
-};
-
-const docThree: Resource<object> = {
-  uid: 2,
-  resourceType: ResourceType.PERSON,
-  data: { name: "yoshi" },
-};
-
-console.log(docTwo, docThree);
