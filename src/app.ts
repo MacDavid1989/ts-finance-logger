@@ -59,4 +59,11 @@ const addUID = <T extends { name: string }>(obj: T) => {
 };
 
 let docOne = addUID({ name: "yoshi", age: 40 });
-console.log(docOne)
+console.log(docOne);
+
+// generics with interface
+interface Resource<T> {
+  uid: number;
+  resourceName: string;
+  data: T;
+}
