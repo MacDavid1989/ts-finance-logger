@@ -36,5 +36,8 @@ arr[1] = "yoshi";
 arr = [30, false, "yoshi"];
 
 let tup: [string, number, boolean] = ["ryu", 25, true];
-tup[0] = 40
-tup[1] = 'yoshi';
+tup[0] = "ken";
+tup[1] = 45;
+
+let student: [string, number];
+student = ["dave", 223455];
