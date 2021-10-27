@@ -59,5 +59,6 @@ const addUID = <T>(obj: T) => {
 };
 
 let docOne = addUID({ name: "yoshi", age: 40 });
+let docTwo = addUID('hello')
 
 console.log(docOne.name);
