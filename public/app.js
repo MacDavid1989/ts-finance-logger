@@ -24,7 +24,7 @@ const tofrom = document.querySelector("#tofrom");
 const details = document.querySelector("#details");
 const amount = document.querySelector("#amount");
 const ul = document.querySelector(".item-list");
-let li = new ListTemplate(ul);
+const li = new ListTemplate(ul);
 form.addEventListener("submit", (e) => {
     e.preventDefault();
     let doc;

@@ -35,7 +35,7 @@ const details = document.querySelector("#details")! as HTMLInputElement;
 const amount = document.querySelector("#amount")! as HTMLInputElement;
 
 const ul = document.querySelector(".item-list")! as HTMLUListElement;
-let li = new ListTemplate(ul);
+const li = new ListTemplate(ul);
 
 form.addEventListener("submit", (e: Event) => {
   e.preventDefault();
