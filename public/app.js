@@ -11,7 +11,11 @@ const ul = document.querySelector(".item-list");
 const li = new ListTemplate(ul);
 form.addEventListener("submit", (e) => {
     e.preventDefault();
-    let values = [tofrom.value, details.value, amount.valueAsNumber];
+    let values = [
+        tofrom.value,
+        details.value,
+        amount.valueAsNumber,
+    ];
     let doc;
     if (type.value === "invoice") {
         doc = new Invoice(...values);
