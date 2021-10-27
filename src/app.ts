@@ -53,7 +53,7 @@ form.addEventListener("submit", (e: Event) => {
 
 // generics: allow us to create reusable blocks of code that can be used with different types
 
-const addUID = (obj: object) => {
+const addUID = <T>(obj: T) => {
   let uid = Math.floor(Math.random() * 100);
   return { ...obj, uid };
 };
