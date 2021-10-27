@@ -21,3 +21,5 @@ form.addEventListener("submit", (e) => {
     li.render(doc, type.value, "end");
 });
 // tuples
+let arr = ["ryu", 25, true];
+arr[0] = false;

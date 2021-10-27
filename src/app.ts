@@ -30,3 +30,5 @@ form.addEventListener("submit", (e: Event) => {
 
 // tuples
 
+let arr = ["ryu", 25, true];
+arr[0] = false
