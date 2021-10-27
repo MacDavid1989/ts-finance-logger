@@ -60,4 +60,4 @@ const addUID = (obj: object) => {
 
 let docOne = addUID({ name: "yoshi", age: 40 });
 
-console.log(docOne);
+console.log(docOne.name);
