@@ -50,3 +50,14 @@ form.addEventListener("submit", (e: Event) => {
 
   li.render(doc, type.value, "end");
 });
+
+// generics: allow us to create reusable blocks of code that can be used with different types
+
+const addUID = (obj: object) => {
+  let uid = Math.floor(Math.random() * 100);
+  return { ...obj, uid };
+};
+
+let docOne = addUID({ name: "yoshi", age: 40 });
+
+console.log(docOne);
